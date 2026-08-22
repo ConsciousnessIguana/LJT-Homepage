@@ -14,3 +14,5 @@ Junteng Liu is the first author of this paper.
 Authors: Junteng Liu, Shiqi Chen, Yu Cheng, Junxian He
 
 Published at EMNLP 2024.
+
+GitHub code repository: Universal_Truthfulness_Hyperplane.
