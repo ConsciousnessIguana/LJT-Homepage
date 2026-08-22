@@ -14,3 +14,5 @@ Junteng Liu is the first author of this paper.
 Authors: Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He
 
 Published on arXiv, 2025.
+
+GitHub code repository: Vision4Chart.
