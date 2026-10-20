@@ -210,8 +210,8 @@ incremental: false
 # Markdown Processing
 kramdown:
   input: GFM
-  hard_wrap= false
-  auto_ids= true
+  hard_wrap: false
+  auto_ids: true
   footnote_nr= 1
   entity_output= as_char
   toc_levels= 1..6
@@ -301,7 +301,7 @@ sass:
 # Outputting
 permalink= /:categories/:title/
 # paginate= 5 # amount of posts to show
-# paginate_path= /page:num=/
+# paginate_path= /page=num=/
 timezone= Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
