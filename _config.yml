@@ -2,21 +2,21 @@
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
+# For technical reasons, this file is *Not* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "Junteng Liu / Academic Portfolio"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+name                     : "Junteng Liu"
+description              : "Junteng Liu's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://ConsciousnessIguana.github.io/LJT-Homepage # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "ConsciousnessIguana/LJT-Homepage"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,40 +24,40 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Junteng Liu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "First-year PhD candidate at HKUST NLP Group researching natural language processing and machine learning"
+  location         : 
+  employer         : "Hong Kong University of Science and Technology"
+  uri              : # Url
+  email            : "jliugi@connect.ust.hk" 
 
   # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
+  academia         : # Url
+  arxiv            : # Url - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
+  inspire-hep      : # Url
+  impactstory      : # Url
+  orcid            : # Url
+  semantic         : # Url
+  ssrn             : # Url
+  pubmed           : # Url
+  researchgate     : # Url
+  scopus           : # Url
+  zotero           : # Url
 
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
+  codepen           : # Username
+  dribbble          : # Username
+  github           : "Vicent0205"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -67,14 +67,14 @@ author:
   instagram        : # Username
   lastfm           : # Username
   linkedin         : # Username
-  mastodon         : # URL
-  medium           : # URL
+  mastodon         : # Url
+  medium           : # Url
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
-  telegram         : # URL
+  telegram         : # Url
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "junteng88716710"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -176,14 +176,14 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
-  - CHANGELOG
+  - Changelog
   - Capfile
   - config
   - Dockerfile
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
-  - LICENSE
+  - License
   - local
   - log
   - node_modules
@@ -210,99 +210,99 @@ incremental: false
 # Markdown Processing
 kramdown:
   input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  hard_wrap= false
+  auto_ids= true
+  footnote_nr= 1
+  entity_output= as_char
+  toc_levels= 1..6
+  smart_quotes= lsquo,rsquo,ldquo,rdquo
+  enable_coderay= false
 
 
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
-    permalink: /:collection/:path/
+    output= true
+    permalink= /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
+    output= true
+    permalink= /:collection/:path/
   portfolio:
-    output: true
-    permalink: /:collection/:path/
+    output= true
+    permalink= /:collection/:path/
   talks:
-    output: true
-    permalink: /:collection/:path/
+    output= true
+    permalink= /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
   - scope:
-      path: ""
-      type: posts
+      path= ""
+      type= posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      layout= single
+      author_profile= true
+      read_time= true
+      comments= true
+      share= true
+      related= true
   # _pages
   - scope:
-      path: ""
-      type: pages
+      path= ""
+      type= pages
     values:
-      layout: single
-      author_profile: true
+      layout= single
+      author_profile= true
   # _teaching
   - scope:
-      path: ""
-      type: teaching
+      path= ""
+      type= teaching
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+      layout= single
+      author_profile= true
+      share= true
+      comments= true
   # _publications
   - scope:
-      path: ""
-      type: publications
+      path= ""
+      type= publications
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+      layout= single
+      author_profile= true
+      share= true
+      comments= true
   # _portfolio
   - scope:
-      path: ""
-      type: portfolio
+      path= ""
+      type= portfolio
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+      layout= single
+      author_profile= true
+      share= true
+      comment= true
   # _talks
   - scope:
-      path: ""
-      type: talks
+      path= ""
+      type= talks
     values:
-      layout: talk
-      author_profile: true
-      share: true
+      layout= talk
+      author_profile= true
+      share= true
 
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  sass_dir= _sass
+  style= compressed # https://sass-lang.com/documentation/file.SASS_Reference.html#output_style
 
 
 # Outputting
-permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink= /:categories/:title/
+# paginate= 5 # amount of posts to show
+# paginate_path= /page:num=/
+timezone= Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -323,39 +323,38 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
-
 # Archives
 #  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  - GitHub Pages compatible archive pages built with Liquid ~ type= liquid (default)
+#  - Jekyll Archives plugin archive pages ~ type= jekyll-archives
 #  Path (examples)
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path>/tags/my-awesome-tag/index.html ~ path= /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~ path= /categories/
+#  - <base_path/my-awesome-category/index.html ~ path= /
 category_archive:
-  type: liquid
-  path: /categories/
+  type= liquid
+  path= /categories/
 tag_archive:
-  type: liquid
-  path: /tags/
+  type= liquid
+  path= /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
 #     - categories
 #     - tags
 #   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
+#     category= archive-taxonomy
+#     tag= archive-taxonomy
 #   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+#     category= /categories/:name/
+#     tag= /tags/:name/
 
 
-# HTML Compression
+# Html Compression
 # - https://jch.penibelst.de/
 compress_html:
-  clippings: all
+  clippings= all
   ignore:
-    envs: development
+    envs= development
